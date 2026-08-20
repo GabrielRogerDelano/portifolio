@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Gabriel Roger — Desenvolvimento de Software, APIs, Python, React e Banco de Dados.">
+  <title>Gabriel Roger | Desenvolvedor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#inicio">&lt;GR /&gt;</a>
+      <button class="menu-btn" aria-label="Abrir menu">☰</button>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero container">
+      <div class="hero-content">
+        <p class="eyebrow">DESENVOLVIMENTO DE SOFTWARE</p>
+        <h1>Olá, eu sou <span>Gabriel Roger</span>.</h1>
+        <h2>Desenvolvedor em formação, apaixonado por criar soluções.</h2>
+        <p class="hero-text">
+          Estudante de Análise e Desenvolvimento de Sistemas, com experiência em
+          programação, APIs, bancos de dados e desenvolvimento de projetos.
+          Atualmente focado em evoluir como desenvolvedor Full Stack.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#projetos">Ver projetos</a>
+          <a class="btn secondary" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="code-card">
+        <div class="dots"><i></i><i></i><i></i></div>
+        <pre><code><span class="purple">const</span> developer = {
+  <span class="key">nome</span>: <span class="string">"Gabriel Roger"</span>,
+  <span class="key">foco</span>: [
+    <span class="string">"Python"</span>,
+    <span class="string">"APIs REST"</span>,
+    <span class="string">"React"</span>,
+    <span class="string">"SQL"</span>
+  ],
+  <span class="key">objetivo</span>: <span class="string">"Full Stack"</span>
+};</code></pre>
+      </div>
+    </section>
+
+    <section id="sobre" class="section container">
+      <p class="section-label">01 — SOBRE MIM</p>
+      <div class="two-columns">
+        <div>
+          <h2>Transformando ideias em projetos.</h2>
+        </div>
+        <div>
+          <p>
+            Minha trajetória começou com o ensino de programação e robótica,
+            trabalhando com lógica de programação e desenvolvimento de jogos.
+            Essa experiência fortaleceu minha comunicação, liderança e capacidade
+            de resolver problemas.
+          </p>
+          <p>
+            Hoje, estou direcionando essa experiência para o desenvolvimento de
+            software, criando projetos com Python, Flask, SQLAlchemy, React,
+            JavaScript e bancos de dados relacionais e NoSQL.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section alt">
+      <div class="container">
+        <p class="section-label">02 — HABILIDADES</p>
+        <div class="skills-grid">
+          <article class="skill"><span>01</span><h3>Backend</h3><p>Python, Flask, APIs REST, Node.js, PHP, SQLAlchemy, Prisma.</p></article>
+          <article class="skill"><span>02</span><h3>Frontend</h3><p>HTML, CSS, JavaScript e React, com foco em interfaces responsivas.</p></article>
+          <article class="skill"><span>03</span><h3>Dados</h3><p>MySQL, PostgreSQL, SQLite, MongoDB e modelagem de dados.</p></article>
+          <article class="skill"><span>04</span><h3>Ferramentas</h3><p>Git, GitHub, Docker, Power BI e ambientes de desenvolvimento.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section container">
+      <p class="section-label">03 — PROJETOS</p>
+      <div class="projects-header">
+        <h2>Projetos em destaque</h2>
+        <p>Projetos pessoais desenvolvidos para praticar tecnologia e resolver problemas reais.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project featured">
+          <div class="project-top"><span>01</span><span>ETL • DATA • BI</span></div>
+          <h3>Price Insight ETL</h3>
+          <p>
+            Pipeline de dados para coleta, transformação e armazenamento de
+            informações de produtos, preparando os dados para análise e
+            visualização no Power BI.
+          </p>
+          <div class="tags"><span>Python</span><span>SQLAlchemy</span><span>PostgreSQL</span><span>Power BI</span></div>
+          <a href="https://github.com/" target="_blank" rel="noopener">Ver no GitHub ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-top"><span>02</span><span>BACKEND</span></div>
+          <h3>API REST com Flask</h3>
+          <p>API com operações CRUD, organização por serviços, SQLAlchemy e persistência em banco de dados.</p>
+          <div class="tags"><span>Python</span><span>Flask</span><span>SQLAlchemy</span><span>REST</span></div>
+          <a href="https://github.com/" target="_blank" rel="noopener">Ver no GitHub ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-top"><span>03</span><span>FULL STACK</span></div>
+          <h3>Cadastro de Usuários</h3>
+          <p>Aplicação de cadastro com interface React integrada a banco de dados MongoDB.</p>
+          <div class="tags"><span>React</span><span>JavaScript</span><span>MongoDB</span></div>
+          <a href="https://github.com/" target="_blank" rel="noopener">Ver no GitHub ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-top"><span>04</span><span>JAVASCRIPT</span></div>
+          <h3>Contador de Horas</h3>
+          <p>Aplicação web para controle e acompanhamento de horas utilizando JavaScript.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a href="https://github.com/" target="_blank" rel="noopener">Ver no GitHub ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-top"><span>05</span><span>JAVA</span></div>
+          <h3>Campo Minado Swing</h3>
+          <p>Jogo desenvolvido em Java com interface gráfica Swing, aplicando lógica de programação e orientação a objetos.</p>
+          <div class="tags"><span>Java</span><span>Swing</span><span>JDK 21</span></div>
+          <a href="https://github.com/" target="_blank" rel="noopener">Ver no GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container learning">
+        <div>
+          <p class="section-label">04 — ATUALMENTE</p>
+          <h2>Sempre aprendendo.</h2>
+        </div>
+        <p>
+          Atualmente estudando e aprofundando conhecimentos em React, desenvolvimento
+          Full Stack, APIs, bancos de dados, Docker e boas práticas de arquitetura.
+        </p>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact container">
+      <p class="section-label">05 — CONTATO</p>
+      <h2>Vamos construir algo?</h2>
+      <p>Estou aberto a oportunidades de estágio e desenvolvimento de software.</p>
+      <div class="contact-links">
+        <a href="mailto:seuemail@email.com">Email</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>© 2026 Gabriel Roger</span>
+      <span>Desenvolvido com HTML, CSS e JavaScript.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
